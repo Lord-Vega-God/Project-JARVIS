@@ -1,4 +1,3 @@
-import pyttsx3
-engine = pyttsx3.init()
-engine.say("Good evening, Abhijit. Welcome Back.")
-engine.runAndWait()
+from voice.speak import speak
+
+speak("Good evening, Sir. Welcome Back.")
