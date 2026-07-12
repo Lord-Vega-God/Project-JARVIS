@@ -1,3 +1,5 @@
-from voice.speak import speak
+from brain.jarvis import Jarvis
 
-speak("Good evening, Sir. Welcome Back.")
+jarvis = Jarvis()
+
+jarvis.startup()
